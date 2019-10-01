@@ -29,7 +29,7 @@ Concrete units that extends ConvertableUnit and implements the Unit interface.
 # Instructions for operating:
 
 ## Launch application: 
-Open the launch.bndrun file in TDT4250.unitConverter.servlet, make sure celsius, kilogram and meter is added to Run Requirements
+Open the launch.bndrun file in TDT4250.unitConverter.servlet, make sure celsius, kilogram and meter is added to Run Requirements, resolve and Run OSGi.
 
 ## Add unit components:
 create new Bnd OSGi Project, and create a class for your unit. Make it extend ConvertableUnit and implement Unit. Annotate with @Comonent over class declarization and set properties SHORT_UNIT_NAME, LONG_UNIT_NAME and add conversion equations by listing them  separated by space in CONVERSION_EQUATIONS.
