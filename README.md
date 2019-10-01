@@ -36,8 +36,8 @@ create new Bnd OSGi Project, and create a class for your unit. Make it extend Co
 
 ## Add conversions in runtime/designtime:
 - Outside runtime: Add new component and set conversion equations for it by adding to the CONVERSION_EQUATION sting. E.g if adding 1 tonne = 1000kg write t=k*1000 in the Kilogram class' CONVERSION_EQUATION.
-- In Runtime: interact with eclipse console when servlet is running to add conversion equations to a unit. \nE.g if adding conversion equation for converting between meters and cm type:
+- In Runtime: interact with eclipse console when servlet is running to add conversion equations to a unit. E.g if adding conversion equation for converting between meters and cm type:
 add "meter" "c=m*100".
 
 ## Query conversions:
-open localhost:8080/conversion?q=<query> in browser. <query> is placeholder for query string. query string must be from_unit value to_unit. \nE.g to query converting for 10 meters to centimeters open localhost:8080/conversion?q=m10c
+open localhost:8080/conversion?q=<query> in browser. <query> is placeholder for query string. query string must be from_unit value to_unit. E.g to query converting for 10 meters to centimeters open localhost:8080/conversion?q=m10c
