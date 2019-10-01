@@ -12,7 +12,7 @@ Classes:
 
 ## TDT4250.unitConverter.util
 Classes: 
-- ConvertableUnit: Concrete method of the Unit interface. Used for creating new conversion equations for Unit components in runtime through the gogo shell.
+- ConvertableUnit: Concrete method of the Unit interface. Every instance of this class contains a List<String> with equations to convert from this unit to another. When searching for a conversion result it will  look up these lists to find appropriate conversion equations Used for creating new conversion equations for Unit components in runtime through the gogo shell.
 
 ## TDT4250.unitConverter.servlet
 Classes:
