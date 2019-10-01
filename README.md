@@ -2,7 +2,7 @@
 
 Exercise 2 in TDT4250 at Norwegian University of Science and Technology fall 2019
 
-This project consists of 7 bundles
+This project consists of 7 Bdn OSGi projects but, can be expanded by adding more unit components:
 
 ## TDT4250.unitConverter.api
 Classes:
